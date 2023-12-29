@@ -1,65 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #F0F5F7;
+      border-bottom: 1px solid #EAF0F5;
+      text-align: center;
+      padding: 20px 0;
+      color: white;
+    }
 
-        header {
-            background-color: #091D30;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
+    section {
+      width: 100%;
+      background-color: white;
+      padding: 40px 0;
+    }
 
-        section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 2em;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    .inner-section {
+      max-width: 800px;
+      margin: 0 auto;
+    }
 
-        h1, h2 {
-            color: #091D30;
-        }
+    .gray-section {
+      background-color: lightgray;
+    }
 
-        p {
-            color: #091D30;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 0.5em;
-        }
-
-        a {
-            color: #19568A;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-       .indented {
-    text-indent: 20px; /* Задайте желаемый отступ здесь */
-        }
-        .project-title {
-            margin-top: 40px;
-            border-bottom: 1px solid #091D30; /* Цвет и стиль полосы */
-        } 
-        /* Стили для создания ссылки с полным размером ячейки */
+    footer {
+      width: 100%;
+      background-color: white;
+      padding: 40px 0;
+    }
+      /* Стили для создания ссылки с полным размером ячейки */
         .table-cell-link {
             display: flex;
             align-items: center;
@@ -90,23 +68,20 @@
   td {
     height: 80px; /* Установите необходимую высоту для строк */
   }
-    </style>
+      .indented {
+    text-indent: 20px; /* Задайте желаемый отступ здесь */
+        }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Портфолио</h1>
+  </header>
 
-    <header>
-        <p>Tatiana Yunina</p>
-    </header>
-
-    <section>
-        <h2>About me</h2>
-        <p class="indented">It's good to see you. My name is Tatiana.</p>
-<p class="indented">I am just starting my journey in the field of data science. I am drawn to the opportunity to fully immerse myself in the company's work and understand all its aspects. I am not afraid of challenging tasks; on the contrary, I eagerly take on new projects and see them through to completion. I am attentive and always strive to learn from more experienced colleagues.</p>
-<p class="indented">In my free time, I delve into books on machine learning to enhance my skills. My motivation stems from a desire for constant improvement and a genuine interest in the subject. I actively practice my knowledge on Kaggle, participating in real-world data science challenges.</p>
-        <h2 class="project-title">Projects</h2>
-        <ul>
-
-<table>
+  <section>
+    <div class="inner-section">
+      <h2>Projects</h2>
+     <table>
   <tr>
     <td><a href="https://github.com/tatianayunina/Portfolio/blob/main/store_sales_pred.ipynb" target="_blank" class="table-cell-link">Sales in the Supermarket Networks</a></td>
     <td>Retail shop sales forecasting based on data from Corporación Favorita, a large Ecuadorian grocery retailer.</td>
@@ -124,18 +99,35 @@
     <td>Predicting outcomes in patients with cirrhosis based on blood test data.</td>
   </tr>
 </table>
-        </ul>
+    </div>
+  </section>
 
-        <h2>Contacts</h2>
-        <table style="width: 100%; border-collapse: collapse;">
+  <section class="gray-section">
+    <div class="inner-section">
+       <h2>About me</h2>
+        <p class="indented">It's good to see you. My name is Tatiana.</p>
+<p class="indented">I am just starting my journey in the field of data science. I am drawn to the opportunity to fully immerse myself in the company's work and understand all its aspects. I am not afraid of challenging tasks; on the contrary, I eagerly take on new projects and see them through to completion. I am attentive and always strive to learn from more experienced colleagues.</p>
+<p class="indented">In my free time, I delve into books on machine learning to enhance my skills. My motivation stems from a desire for constant improvement and a genuine interest in the subject. I actively practice my knowledge on Kaggle, participating in real-world data science challenges.</p>
+        </div>
+  </section>
+
+  <section>
+    <div class="inner-section">
+      <h2>Контакты</h2>
+      <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="text-align: center; padding: 5px;">tatiana.yunina@gmail.com</td>
     <td style="text-align: center; padding: 5px;"><a href="https://www.linkedin.com/in/tatiana-yunina/">LinkedIn</a></td>
     <td style="text-align: center; padding: 5px;"><a href="https://career.habr.com/tatianayunina">Хабр Карьера</a></td>
   </tr>
        </table>
- </section>
+    </div>
+  </section>
 
+  <footer>
+    <div class="inner-section">
+      <!-- Здесь разместите дополнительную информацию в футере, если необходимо -->
+    </div>
+  </footer>
 </body>
 </html>
-

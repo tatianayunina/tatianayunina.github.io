@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #091D30;
         }
 
         header {
@@ -23,16 +23,15 @@
             max-width: 800px;
             margin: 2em auto;
             padding: 2em;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #091D30;
         }
 
         h1, h2 {
-            color: #091D30;
+            color: #fff;
         }
 
         p {
-            color: #091D30;
+            color: #fff;
         }
 
         ul {
@@ -45,7 +44,7 @@
         }
 
         a {
-            color: #007BFF;
+            color: #0D2B4B;
             text-decoration: none;
         }
 
@@ -55,6 +54,13 @@
        .indented {
     text-indent: 20px; /* Задайте желаемый отступ здесь */
         }
+         h2 {
+      margin-top: 20px; /* Отступ от предыдущего текста */
+      padding: 10px; /* Отступ вокруг текста заголовка */
+      background-color: #0D2B4B; /* Цветная полоса */
+      color: #fff; /* Цвет текста */
+      display: inline-block; /* Чтобы цветная полоса применялась только к ширине текста заголовка */
+    }
     </style>
 </head>
 <body>
@@ -88,7 +94,7 @@
   td {
     height: 80px; /* Установите необходимую высоту для строк */
   }
-</style>
+ </style>
 
 <table>
   <tr>
@@ -111,11 +117,11 @@
         </ul>
 
         <h2>Contacts</h2>
-        <table>
+        <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td>Email: tatiana.yunina@gmail.com</td>
-    <td>LinkedIn: <a href="https://www.linkedin.com/in/tatiana-yunina/">Profile LinkedIn</a></td>
-    <td>Хабр Карьера: <a href="https://career.habr.com/tatianayunina">Profile Хабр Карьера</a></td>
+    <td style="text-align: center; padding: 10px;">Email: tatiana.yunina@gmail.com</td>
+    <td style="text-align: center; padding: 10px;">LinkedIn: <a href="https://www.linkedin.com/in/tatiana-yunina/">Profile LinkedIn</a></td>
+    <td style="text-align: center; padding: 10px;">Хабр Карьера: <a href="https://career.habr.com/tatianayunina">Profile Хабр Карьера</a></td>
   </tr>
        </table>
  </section>

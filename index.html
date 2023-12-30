@@ -7,6 +7,17 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
   <style>
+            #language-switcher {
+            display: flex;
+            gap: 10px; /* Расстояние между кнопками */
+        }
+
+        #language-switcher button {
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 300;
+            color: #AAAAB2;
+        }
     body {
       margin: 0;
       padding: 0;
@@ -102,6 +113,11 @@
 </head>
 <body>
   <header>
+     <div id="language-switcher">
+        <button onclick="switchLanguage('en')">English</button>
+        <button onclick="switchLanguage('es')">Español</button>
+        <button onclick="switchLanguage('ru')">Русский</button>
+    </div>
     <img src="logofoto.jpg" alt="Your Image">
     <p style="font-family: 'Montserrat'; font-size: 34px; font-weight: 400; margin-bottom: 2px;">YUNINA TATIANA</p>
     <p style="font-family: 'Roboto'; font-size: 16px; font-weight: 300; color: #AAAAB2; margin-bottom: 2px;">DATA SCIENTIST junior</p>
@@ -159,5 +175,6 @@
       <!>
     </div>
   </footer>
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <style>
+     
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #F5F8FA;
+      border-bottom: 1px solid #D6D9DB;
+      text-align: center;
+      padding: 20px 0;
+      color: #3A4145;
+    }
+    header p {
+  margin-top: 5px;
+}
+ header img {
+      width: 170px; /* Укажите желаемую ширину картинки */
+      border: 1px solid #D6D9DB;
+      border-radius: 50%;
+      margin-bottom: 5px;
+    }
+
+    section {
+      width: 100%;
+      background-color: white;
+      padding: 40px 0;
+      font-family: 'Merriweather'; 
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    .inner-section {
+      padding: 20px; /* Добавленные отступы справа и слева */
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .gray-section {
+      background-color: #F5F8FA;
+    }
+
+    footer {
+      width: 100%;
+      border-top: 1px solid #D6D9DB;
+      padding: 20px 0;
+    }
+      /* Стили для создания ссылки с полным размером ячейки */
+        .table-cell-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            text-decoration: none; /* Убрать подчеркивание ссылки, если нужно */
+        }
+        .table-cell-link:hover {
+    background-color: #F5F8FA; /* Цвет при наведении */
+        }
+        table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #091D30;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  td:first-child {
+    width: 40%; /* Установите необходимую ширину для первой колонки */
+  }
+
+  td {
+    height: 80px; /* Установите необходимую высоту для строк */
+  }
+   
+      .indented {
+    text-indent: 20px; /* Задайте желаемый отступ здесь */
+        }
+    a {
+    color: #0096CC;
+    text-decoration: none;
+}
+    h2 {
+    font-family: 'Roboto';  
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+}
+    
+  </style>
+  </head>
+<body>
+  <header>
+    <img src="logofoto.jpg" alt="Your Image">
+    <p style="font-family: 'Montserrat'; font-size: 34px; font-weight: 400; margin-bottom: 2px;">YUNINA TATIANA</p>
+    <p style="font-family: 'Roboto'; font-size: 16px; font-weight: 300; color: #AAAAB2; margin-bottom: 2px;">DATA SCIENTIST junior</p>
+  </header>
+
+  <section>
+    <div class="inner-section">
+      <h2>PROYECTOS</h2>
+    <table>
+    <tr>
+        <td><a href="https://github.com/tatianayunina/Portfolio/blob/main/store_sales_pred.ipynb" target="_blank" class="table-cell-link"><strong>Ventas en las Redes de Supermercados</strong></a></td>
+        <td>Pronóstico de ventas en tiendas minoristas basado en datos de Corporación Favorita, un gran minorista de comestibles ecuatoriano.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/tatianayunina/Portfolio/blob/main/house_price_pred.ipynb" target="_blank" class="table-cell-link"><strong>Costo de las Casas</strong></a></td>
+        <td>Pronóstico del precio de una vivienda residencial utilizando 79 variables que describen diversos aspectos de las viviendas en Ames, Iowa.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/tatianayunina/Portfolio/blob/main/icr_eda_pred.ipynb" target="_blank" class="table-cell-link"><strong>Condición del Paciente</strong></a></td>
+        <td>Pronóstico de si una persona tiene una de tres enfermedades basado en datos de la empresa InVitro Cell Research, LLC (ICR), una empresa de medicina regenerativa y preventiva personalizada.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/tatianayunina/Portfolio/blob/main/eda-cirrhosis-predict.ipynb" target="_blank" class="table-cell-link"><strong>Pronóstico de un Paciente con Cirrosis</strong></a></td>
+        <td>Pronóstico de resultados en pacientes con cirrosis basado en datos de análisis de sangre.</td>
+    </tr>
+</table>
+    </div>
+  </section>
+
+  <section class="gray-section">
+    <div class="inner-section">
+    <h2>SOBRE MÍ</h2>
+    <p class="indented">Es bueno verte. <em>Mi nombre es Tatiana</em>.</p>
+    <p class="indented" style="text-align: justify;">Estoy comenzando mi trayectoria en el campo de la ciencia de datos. Me entusiasma la oportunidad de sumergirme por completo en el trabajo de una empresa y comprender todos sus aspectos. No evito tareas desafiantes; al contrario, asumo con entusiasmo nuevos proyectos y los llevo a cabo hasta su conclusión. Soy atenta y siempre busco aprender de colegas más experimentados.</p>
+    <p class="indented" style="text-align: justify;">En mi tiempo libre, exploró libros sobre aprendizaje automático para mejorar mis habilidades. Mi motivación proviene del deseo de mejora constante y un interés genuino en el tema. Aplico activamente mis conocimientos en <em>Kaggle</em>, participando en desafíos reales de ciencia de datos.</p>
+    <p class="indented" style="text-align: justify;">Me gradué de la <strong>Facultad de Tecnologías Nano y Biomédicas</strong> en la <em>Universidad Estatal de Sarátov N.G. Chernyshevsky</em>&nbsp;&nbsp;con una licenciatura en <strong>Física de Microelectrónica</strong>.</p>
+</div>
+  </section>
+
+  <section>
+    <div class="inner-section">
+      <h2>CONTACTO</h2>
+      <table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="text-align: center; padding: 5px; font-family: 'Roboto'; font-weight: 300;">tatiana.yunina@gmail.com</td>
+    <td style="text-align: center; padding: 5px; font-family: 'Roboto'; font-weight: 300;"><a href="https://www.linkedin.com/in/tatiana-yunina/">LinkedIn</a></td>
+  </tr>
+       </table>
+    </div>
+  </section>
+
+  <footer>
+    <div class="inner-section">
+      <!>
+    </div>
+  </footer>
+</body>
+</html>
